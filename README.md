@@ -54,9 +54,9 @@ https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 ```
 ##### Шаг 2. Запустите PostgreSQL и создайте БД supprot
 #### Подготовка секретных переменных
-##### Шаг 1. Перейдите в директорию с проектом
+##### Шаг 1. Перейдите в директорию с проектом backend
 ```bash
-cd <path_to_project>/
+cd <path_to_project>/backend/
 ```
 ##### Шаг 2. Создайте файл *.env*
 ##### Шаг 3. Заполните *.env* следующем образом
@@ -73,7 +73,7 @@ DEBUG=True
 #### Настройка виртуального окружения и проведение миграций
 ##### Шаг 1. Установка виртуального окружения
 ```bash
-cd <path_to_project/>
+cd <path_to_project>/backend/
 ```
 ```bash
 python -m venv venv
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 ```
 ##### Шаг 6. Перейдите в директорию с файлом manage.py с запущенным виртуальным окружением
 ```bash
-cd <path_to_project>/backend/
+cd <path_to_project>/backend/support/
 ```
 ##### Шаг 7. Проведение миграции
 ```bash
